@@ -19,7 +19,22 @@ config:
           theme: alt
           text: Github →
           link: https://github.com/caobaoqi1024/spring-boot3-study
-
+  -
+    type: 'features'
+    features:
+      -
+        title: web
+        icon: 🌐
+        details: web
+      -
+        title: web
+        icon: 🌐
+        details: web
+      -
+        title: web
+        icon: 🌐
+        details: web
+        
 footer: MIT Licensed | Copyright © 2024 zhaoxi-scut
 ---
 

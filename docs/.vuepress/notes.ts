@@ -5,6 +5,11 @@ const springBoot = defineNoteConfig({
     link: '/spring-boot',
     sidebar: [
         {
+            text: '关于 Spring Boot',
+            icon: 'simple-icons:springboot',
+            link: '/spring-boot/'
+        },
+        {
             text: 'install',
             icon: 'clarity:install-outline-badged',
             link: 'install/',
