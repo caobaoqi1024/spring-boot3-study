@@ -1,14 +1,14 @@
-import type { Theme } from 'vuepress'
+import type {Theme} from 'vuepress'
 import process from 'node:process'
-import { plumeTheme } from 'vuepress-theme-plume'
+import {plumeTheme} from 'vuepress-theme-plume'
 
 export const theme: Theme = plumeTheme({
     hostname: process.env.SITE_HOST || 'https://caobaoqi1024.github.io/spring-boot3-study/',
     docsRepo: 'caobaoqi1024/spring-boot3-study',
     docsDir: 'docs',
     docsBranch: 'main',
-    changelog: { maxCount: 10 },
-    contributors: { mode: 'block' },
+    changelog: {maxCount: 10},
+    contributors: {mode: 'block'},
     editLink: true,
     cache: 'filesystem',
     autoFrontmatter: {
@@ -19,13 +19,11 @@ export const theme: Theme = plumeTheme({
 
     plugins: {
         git: true,
-
         shiki: {
             twoslash: true,
             lineNumbers: 10,
             languages: ['sh', 'ts', 'md', 'html', 'js', 'go', 'kotlin', 'rust', 'vue', 'css', 'json', 'scss', 'yaml', 'bash', 'c++', 'java', 'py', 'ruby', 'make', 'objc', 'swift', 'php', 'rs', 'sql', 'xml', 'zig', 'pug', 'http', 'less', 'styl', 'jsx', 'tsx', 'astro', 'svelte', 'wasm', 'vb', 'bat', 'cs', 'cpp', 'mermaid'],
         },
-
         markdownEnhance: {
             demo: true,
             chartjs: true,
