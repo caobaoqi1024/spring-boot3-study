@@ -1,6 +1,9 @@
 ### SELF ###
 .fastRequest
 
+### docs ###
+.temp
+.cache
 
 ### Logs ###
 logs
